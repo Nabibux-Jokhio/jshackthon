@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #141624;
+    --secondaryColor: #fff;
+    --textColor: #696F79;
+}
+
+.containerdiv {
+    padding: 10px 30px;
+}
+
+.nav {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: var(--secondaryColor);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoWrapper>img {
+    width: 150px;
+}
+
+.home {
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    color: var(--primaryColor);
+    border-radius: 5px;
+    background: none;
+    border: 1px solid var(--primaryColor);
+}
+.about {
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    color: var(--primaryColor);
+    border-radius: 5px;
+    background: none;
+    border: 1px solid var(--primaryColor);
+}
+
+.hrzonline {
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+}
+
+.sectionOne {
+    height: 300px;
+}
+
+.caroImg>img {
+    height: 300px;
+   
+}
+
+.sectionTwo{
+margin: 10px 0;
+}
+
+

@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #141624;
+    --secondaryColor: #fff;
+    --textColor: #696F79;
+}
+
+.container {
+    height: 100vh;
+    display: flex
+}
+
+.logoWrapper {
+    width: 50%;
+    background-color: var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 400px;
+    height: 400px;
+}
+
+.FormWrapper {
+    width: 50%;
+    background-color: var(--secondaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 50%;
+}
+
+.headingPara {
+    margin-top: 10px;
+    width: 320px;
+    color: #8692A6;
+}
+
+.headingWrapper {
+    margin-bottom: 20px;
+}
+
+.email{
+    color: var(--textColor);
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.inputEmail{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #8692A6;
+    outline: none;
+    border-radius: 5px;
+}
+.password{
+    margin-top: 10px;
+    color: var(--textColor);
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.passwordWrapper{
+    margin-bottom: 10px;
+    
+}
+
+.Btn{
+    width: 49%;
+    padding: 10px;
+    border: none;
+    background-color: var(--primaryColor);
+    font-size: 18px;
+    color: var(--secondaryColor);
+}
+
+.signInPara{
+    text-align: center;
+    margin-top: 20px;
+    color: var(--textColor);
+}
+
+.SignInLinK{
+    color: var(--primaryColor);
+}

@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #141624;
+    --secondaryColor: #fff;
+    --textColor: #696F79;
+}
+
+.containerdiv {
+    padding: 10px 30px;
+}
+
+.nav {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: var(--secondaryColor);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoWrapper>img {
+    width: 150px;
+}
+
+.logBtn {
+    padding: 10px;
+    border: none;
+    background-color: var(--primaryColor);
+    font-size: 14px;
+    color: var(--secondaryColor);
+    border-radius: 5px;
+}
+
+.hrzonline {
+    height: 1px;
+    width: 100%;
+    background-color: var(--primaryColor);
+}
+.icon{
+    margin-right:10px;
+    height: 30px;
+
+}
+.rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
